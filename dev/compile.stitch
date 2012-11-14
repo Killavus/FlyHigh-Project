@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+require 'stitch'
+
+merged_js = Stitch::Package.new(
+  paths: ['dev/js'],
+  dependencies: [
+    # Put your dependencies here.
+  ]
+).compile
+
+IO.write 'scripts/app.js', merged_js, mode: "w+t"
