@@ -1,2 +1,3 @@
-== FlyHigh! Project Skeleton ==
+FlyHigh! Project Skeleton
+=========================
 
