@@ -10,7 +10,7 @@ gem "execjs"
 gem "yui-compressor"
 
 # You should add your JavaScript runtime environment too:
-gem 'therubyracer'
+# gem 'therubyracer'
 # Or:
 # gem 'node'
 # Should do the trick.
